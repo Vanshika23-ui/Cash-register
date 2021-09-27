@@ -15,15 +15,23 @@
             to return.
         </p>
         <label for="bill-amount">Bill Amount:</label>
-        <input id="bill-amount" type="text">
+        <br>
+        <p>
+        <input type="text" id="bill-amount" size="50">
         <!-- <button>Next</button> -->
+        </p>
+        <br>
         <label for="cash-given">Cash Given:</label>
-        <input id="cash-given" type="text">
+        <br>
+        <p>
+        <input id="cash-given" type="text" size="50">
+        </p>
+        <br>
         <button id="check-button">Check</button>
         <p id="error-message"></p>
 
         <table class="change-table">
-            <caption>Return Change</caption>
+            <caption style="font-size: 30px ;padding: 25px 50px ">Return Change</caption>
             <tr>
                 <th>No of Notes</th>
                 <td></td>
@@ -37,6 +45,7 @@
             </tr>
             <tr>
                 <th>Note</th>
+                <td>notes to be returned</td>
                 <td>2000</td>
                 <td>500</td>
                 <td>100</td>

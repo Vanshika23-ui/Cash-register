@@ -8,3 +8,57 @@
     width: 50vw;
 }
 
+body {
+    font-family: cursive;
+}
+h1 {
+    text-align:center;
+    color:#EF4444;
+}
+p{
+    text-align: center;
+    font-size: 20px;
+}
+label{
+    text-align: center;
+    padding-left: 43rem;
+    font-size: 25px;
+}
+p {
+    text-align: center;
+    font-size:15pt;
+}
+button {
+    padding: 5px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    display: grid;
+    font-size: 20px;
+    background-color:#EF4444 ;
+}
+
+table,th,td{
+padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color:black;
+  border: 2px solid #EF4444;
+  width: 50%;
+  border-collapse: collapse;
+  padding: 20px;
+  text-align: right;
+  margin-right: auto;
+margin-left: auto;
+}
+
+label for {
+    position:absolute;
+    top:0;left:0;right:0;bottom:0;
+    display: flex;
+    align-items: center;
+    justify-content:center
+  }
+
+
+
